@@ -1,0 +1,17 @@
+{
+  "name": "cypress-azure-login",
+  "version": "1.0.0",
+  "description": "A solution to login to Azure AD using puppeteer during a cypress test run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-localstorage-commands": "^1.7.0",
+    "puppeteer": "^13.5.1"
+  }
+}
